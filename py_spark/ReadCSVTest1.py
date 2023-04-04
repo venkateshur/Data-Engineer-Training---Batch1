@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 
 if __name__ == '__main__':
-    print("pyspark")
+    print("py_spark")
 
 spark = SparkSession.builder.master("local[*]").getOrCreate()
 
